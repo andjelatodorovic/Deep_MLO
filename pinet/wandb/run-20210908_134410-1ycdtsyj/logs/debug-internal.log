@@ -1,0 +1,48 @@
+2021-09-08 13:44:11,990 INFO    MainThread:21872 [internal.py:wandb_internal():86] W&B internal server running at pid: 21872, started at: 2021-09-08 13:44:11.984900
+2021-09-08 13:44:11,992 INFO    WriterThread:21872 [datastore.py:open_for_write():77] open: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\run-1ycdtsyj.wandb
+2021-09-08 13:44:11,993 DEBUG   HandlerThread:21872 [handler.py:handle_request():128] handle_request: check_version
+2021-09-08 13:44:12,000 DEBUG   SenderThread:21872 [sender.py:send():182] send: header
+2021-09-08 13:44:12,000 DEBUG   SenderThread:21872 [sender.py:send_request():196] send_request: check_version
+2021-09-08 13:44:12,225 DEBUG   SenderThread:21872 [sender.py:send():182] send: run
+2021-09-08 13:44:12,292 DEBUG   SenderThread:21872 [git.py:repo():33] git repository is invalid
+2021-09-08 13:44:12,517 INFO    SenderThread:21872 [dir_watcher.py:__init__():168] watching files in: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files
+2021-09-08 13:44:12,517 INFO    SenderThread:21872 [sender.py:_start_run_threads():740] run started: 1ycdtsyj with start time 1631101450
+2021-09-08 13:44:12,517 DEBUG   SenderThread:21872 [sender.py:send():182] send: summary
+2021-09-08 13:44:12,518 DEBUG   HandlerThread:21872 [handler.py:handle_request():128] handle_request: run_start
+2021-09-08 13:44:12,580 INFO    SenderThread:21872 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-08 13:44:12,662 DEBUG   HandlerThread:21872 [meta.py:__init__():39] meta init
+2021-09-08 13:44:12,662 DEBUG   HandlerThread:21872 [meta.py:__init__():53] meta init done
+2021-09-08 13:44:12,662 DEBUG   HandlerThread:21872 [meta.py:probe():210] probe
+2021-09-08 13:44:12,684 DEBUG   HandlerThread:21872 [git.py:repo():33] git repository is invalid
+2021-09-08 13:44:12,684 DEBUG   HandlerThread:21872 [meta.py:_save_pip():57] save pip
+2021-09-08 13:44:12,710 DEBUG   HandlerThread:21872 [meta.py:_save_pip():71] save pip done
+2021-09-08 13:44:12,710 DEBUG   HandlerThread:21872 [meta.py:_save_conda():78] save conda
+2021-09-08 13:44:13,525 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\requirements.txt
+2021-09-08 13:44:13,525 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\wandb-summary.json
+2021-09-08 13:44:13,526 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\conda-environment.yaml
+2021-09-08 13:44:14,736 DEBUG   HandlerThread:21872 [meta.py:_save_conda():86] save conda done
+2021-09-08 13:44:14,736 DEBUG   HandlerThread:21872 [meta.py:probe():252] probe done
+2021-09-08 13:44:14,895 DEBUG   SenderThread:21872 [sender.py:send():182] send: files
+2021-09-08 13:44:14,895 INFO    SenderThread:21872 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-08 13:44:14,906 DEBUG   HandlerThread:21872 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-08 13:44:14,907 DEBUG   SenderThread:21872 [sender.py:send_request():196] send_request: stop_status
+2021-09-08 13:44:15,504 INFO    Thread-15 :21872 [upload_job.py:push():137] Uploaded file C:\Users\mdsp\AppData\Local\Temp\tmpthbuca5ywandb\2lu90jx5-wandb-metadata.json
+2021-09-08 13:44:15,536 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\wandb-metadata.json
+2021-09-08 13:44:15,537 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\output.log
+2021-09-08 13:44:17,547 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\output.log
+2021-09-08 13:44:17,663 DEBUG   SenderThread:21872 [sender.py:send():182] send: history
+2021-09-08 13:44:17,664 DEBUG   SenderThread:21872 [sender.py:send():182] send: summary
+2021-09-08 13:44:17,715 INFO    SenderThread:21872 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-08 13:44:18,553 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\wandb-summary.json
+2021-09-08 13:44:19,559 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\output.log
+2021-09-08 13:44:20,668 DEBUG   SenderThread:21872 [sender.py:send():182] send: history
+2021-09-08 13:44:20,669 DEBUG   SenderThread:21872 [sender.py:send():182] send: summary
+2021-09-08 13:44:20,727 INFO    SenderThread:21872 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-08 13:44:21,569 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\output.log
+2021-09-08 13:44:21,569 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\wandb-summary.json
+2021-09-08 13:44:23,581 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\output.log
+2021-09-08 13:44:23,799 DEBUG   SenderThread:21872 [sender.py:send():182] send: history
+2021-09-08 13:44:23,800 DEBUG   SenderThread:21872 [sender.py:send():182] send: summary
+2021-09-08 13:44:23,869 INFO    SenderThread:21872 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-08 13:44:24,586 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\wandb-summary.json
+2021-09-08 13:44:25,591 INFO    Thread-12 :21872 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210908_134410-1ycdtsyj\files\output.log

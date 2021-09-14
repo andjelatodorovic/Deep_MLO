@@ -1,0 +1,31 @@
+DEEPMLO PiNet 0
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 147, in exc_handler
+    traceback.print_exception(exc_type, exc, tb)
+  File "C:\ProgramData\Anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+TypeError: info() got an unexpected keyword argument 'file'
+Original exception was:
+Traceback (most recent call last):
+  File "SmallTrainSize.py", line 377, in <module>
+    grid_result = grid.fit(dataset[train_idx], dataset[test_idx])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\model_selection\_search.py", line 654, in fit
+    scorers, self.multimetric_ = _check_multimetric_scoring(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\_scorer.py", line 475, in _check_multimetric_scoring
+    scorers = {"score": check_scoring(estimator, scoring=scoring)}
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\_scorer.py", line 402, in check_scoring
+    raise TypeError("estimator should be an estimator implementing "
+TypeError: estimator should be an estimator implementing 'fit' method, PiNet(
+  (mp_a1): GCNConv(12972, 32)
+  (mp_x1): GCNConv(12972, 32)
+  (linear_a): Linear(in_features=13004, out_features=32, bias=True)
+  (linear_x): Linear(in_features=13004, out_features=32, bias=True)
+  (mp_a2): GCNConv(32, 64)
+  (mp_x2): GCNConv(32, 64)
+  (linear2): Linear(in_features=9216, out_features=2, bias=True)
+) was passed

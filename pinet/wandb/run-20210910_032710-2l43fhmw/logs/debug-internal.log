@@ -1,0 +1,1339 @@
+2021-09-10 03:27:12,551 INFO    MainThread:13224 [internal.py:wandb_internal():86] W&B internal server running at pid: 13224, started at: 2021-09-10 03:27:12.545223
+2021-09-10 03:27:12,552 INFO    WriterThread:13224 [datastore.py:open_for_write():77] open: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\run-2l43fhmw.wandb
+2021-09-10 03:27:12,552 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: check_version
+2021-09-10 03:27:12,559 DEBUG   SenderThread:13224 [sender.py:send():182] send: header
+2021-09-10 03:27:12,559 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: check_version
+2021-09-10 03:27:12,804 DEBUG   SenderThread:13224 [sender.py:send():182] send: run
+2021-09-10 03:27:12,889 DEBUG   SenderThread:13224 [git.py:repo():33] git repository is invalid
+2021-09-10 03:27:13,199 INFO    SenderThread:13224 [dir_watcher.py:__init__():168] watching files in: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files
+2021-09-10 03:27:13,200 INFO    SenderThread:13224 [sender.py:_start_run_threads():740] run started: 2l43fhmw with start time 1631237230
+2021-09-10 03:27:13,200 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:13,202 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: run_start
+2021-09-10 03:27:13,215 DEBUG   HandlerThread:13224 [meta.py:__init__():39] meta init
+2021-09-10 03:27:13,215 DEBUG   HandlerThread:13224 [meta.py:__init__():53] meta init done
+2021-09-10 03:27:13,215 DEBUG   HandlerThread:13224 [meta.py:probe():210] probe
+2021-09-10 03:27:13,231 DEBUG   HandlerThread:13224 [git.py:repo():33] git repository is invalid
+2021-09-10 03:27:13,232 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:13,232 DEBUG   HandlerThread:13224 [meta.py:_save_pip():57] save pip
+2021-09-10 03:27:13,257 DEBUG   HandlerThread:13224 [meta.py:_save_pip():71] save pip done
+2021-09-10 03:27:13,261 DEBUG   HandlerThread:13224 [meta.py:_save_conda():78] save conda
+2021-09-10 03:27:14,209 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\requirements.txt
+2021-09-10 03:27:14,209 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\conda-environment.yaml
+2021-09-10 03:27:14,209 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:15,553 DEBUG   HandlerThread:13224 [meta.py:_save_conda():86] save conda done
+2021-09-10 03:27:15,553 DEBUG   HandlerThread:13224 [meta.py:probe():252] probe done
+2021-09-10 03:27:15,714 DEBUG   SenderThread:13224 [sender.py:send():182] send: files
+2021-09-10 03:27:15,714 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-10 03:27:15,725 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:27:15,726 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:27:16,225 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:16,226 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-metadata.json
+2021-09-10 03:27:16,288 INFO    Thread-15 :13224 [upload_job.py:push():137] Uploaded file C:\Users\mdsp\AppData\Local\Temp\tmpx136j_jcwandb\37r2amqw-wandb-metadata.json
+2021-09-10 03:27:18,231 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:18,808 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:18,809 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:18,880 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:19,238 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:20,238 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:21,265 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:21,266 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:21,336 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:22,244 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:22,245 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:24,200 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:24,200 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:24,239 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:24,263 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:24,264 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:26,277 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:27,014 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:27,015 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:27,052 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:27,283 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:28,298 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:30,152 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:30,153 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:30,199 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:30,318 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:30,319 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:30,921 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:27:30,921 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:27:32,352 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:33,179 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:33,180 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:33,237 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:33,364 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:34,370 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:36,053 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:36,053 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:36,127 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:36,397 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:36,397 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:38,407 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:38,888 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:38,889 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:38,943 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:39,418 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:40,422 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:41,995 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:41,996 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:42,023 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:42,444 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:42,444 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:44,466 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:45,152 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:45,152 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:45,297 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:45,319 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:27:45,479 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:46,127 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:27:46,128 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:27:46,492 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:48,297 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:48,298 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:48,328 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:48,537 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:48,538 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:50,544 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:51,509 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:51,510 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:51,533 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:51,561 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:52,582 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:54,599 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:54,728 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:54,729 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:54,758 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:55,593 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:27:56,607 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:57,661 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:27:57,662 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:27:57,704 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:27:58,612 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:27:58,613 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:00,640 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:00,786 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:00,787 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:00,875 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:01,323 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:28:01,323 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:28:01,652 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:02,655 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:03,778 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:03,778 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:03,807 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:04,678 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:04,678 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:06,522 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:06,524 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:06,570 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:06,684 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:06,684 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:08,711 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:09,587 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:09,588 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:09,628 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:09,723 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:10,737 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:12,551 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:12,552 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:12,675 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:12,755 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:12,755 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:14,787 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:15,287 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:15,288 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:15,310 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:15,803 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:16,549 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:28:16,549 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:28:16,816 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:18,597 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:18,598 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:18,626 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:18,820 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:18,821 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:20,045 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:28:20,838 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:21,717 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:21,718 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:21,739 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:21,852 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:22,874 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:24,763 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:24,764 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:24,820 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:24,896 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:24,897 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:26,924 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:28,115 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:28,116 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:28,144 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:28,941 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:28,942 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:30,972 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:31,285 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:31,286 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:31,338 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:31,770 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:28:31,771 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:28:31,975 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:32,995 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:34,483 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:34,484 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:34,540 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:35,026 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:35,027 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:37,042 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:37,502 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:37,503 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:37,542 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:38,056 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:39,074 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:40,385 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:40,386 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:40,457 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:41,090 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:41,090 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:43,106 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:43,509 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:43,510 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:43,528 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:44,119 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:45,131 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:46,757 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:46,758 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:46,807 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:46,977 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:28:46,977 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:28:47,151 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:47,152 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:49,165 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:49,953 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:49,954 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:49,999 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:50,169 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:51,177 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:53,192 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:53,263 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:53,264 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:53,291 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:54,202 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:54,631 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:28:55,200 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:56,254 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:56,255 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:56,328 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:28:57,228 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:57,228 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:28:59,246 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:28:59,355 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:28:59,356 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:28:59,409 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:00,260 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:01,272 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:02,181 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:29:02,182 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:29:02,439 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:02,440 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:02,467 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:03,296 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:03,296 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:05,293 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:05,294 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:05,332 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:05,333 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:05,354 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:07,365 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:08,549 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:08,550 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:08,604 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:09,381 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:09,382 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:11,399 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:11,879 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:11,880 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:11,920 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:12,400 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:13,415 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:14,504 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:14,505 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:14,565 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:15,423 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:15,423 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:17,400 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:17,401 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:17,402 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:29:17,455 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:17,455 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:17,476 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:17,477 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:29:19,486 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:20,291 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:20,292 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:20,349 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:20,490 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:21,493 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:23,074 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:23,075 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:23,117 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:23,511 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:23,512 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:25,425 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:25,426 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:25,485 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:25,528 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:25,529 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:27,555 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:28,626 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:28,627 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:28,698 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:29,198 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:29:29,581 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:29,581 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:30,984 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:30,985 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:31,012 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:31,614 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:31,615 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:32,691 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:29:32,691 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:29:33,639 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:33,983 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:33,984 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:34,047 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:34,652 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:35,665 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:37,374 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:37,375 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:37,465 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:37,681 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:37,682 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:39,707 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:40,347 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:40,348 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:40,420 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:40,715 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:41,726 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:43,580 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:43,581 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:43,613 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:43,746 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:43,746 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:45,765 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:47,001 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:47,001 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:47,083 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:47,794 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:47,795 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:47,889 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:29:47,889 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:29:49,812 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:50,120 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:50,121 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:50,186 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:50,823 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:51,833 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:53,184 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:53,185 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:53,210 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:53,863 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:53,864 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:55,881 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:56,212 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:56,213 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:56,270 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:56,894 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:29:57,895 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:59,575 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:29:59,576 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:29:59,595 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:29:59,924 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:29:59,924 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:01,953 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:02,715 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:02,716 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:02,774 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:02,965 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:03,100 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:30:03,100 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:30:03,928 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:30:03,965 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:05,934 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:05,935 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:05,988 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:05,997 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:05,998 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:08,023 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:08,806 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:08,806 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:08,857 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:09,039 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:10,053 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:11,796 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:11,797 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:11,839 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:12,058 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:12,059 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:14,085 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:14,844 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:14,845 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:14,875 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:15,104 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:16,115 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:17,969 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:17,970 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:18,011 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:18,132 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:18,133 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:18,308 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:30:18,308 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:30:20,226 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:21,095 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:21,096 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:21,124 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:21,242 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:21,243 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:23,260 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:24,611 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:24,612 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:24,629 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:25,278 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:25,278 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:27,307 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:27,644 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:27,645 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:27,675 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:28,322 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:29,336 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:30,842 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:30,843 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:30,878 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:31,365 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:31,366 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:33,413 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:33,552 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:30:33,552 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:30:33,739 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:33,740 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:33,888 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:34,423 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:35,428 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:36,940 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:36,941 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:36,983 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:37,433 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:37,434 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:38,672 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:30:39,454 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:39,943 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:39,944 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:39,987 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:40,477 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:41,482 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:42,923 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:42,924 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:42,956 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:43,500 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:43,501 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:45,554 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:45,795 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:45,796 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:45,837 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:46,557 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:47,560 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:48,752 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:30:48,752 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:30:49,031 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:49,032 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:49,087 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:49,612 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:49,613 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:51,636 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:52,182 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:52,182 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:52,222 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:52,642 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:53,652 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:55,395 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:55,395 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:55,446 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:55,656 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:55,656 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:30:57,673 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:58,750 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:30:58,751 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:30:58,782 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:30:59,697 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:30:59,698 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:01,737 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:01,802 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:01,803 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:01,862 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:02,740 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:03,752 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:03,973 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:31:03,973 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:31:04,569 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:04,570 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:04,621 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:04,758 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:05,768 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:07,787 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:07,943 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:07,945 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:07,992 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:08,790 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:09,802 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:11,276 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:11,277 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:11,339 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:11,823 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:11,824 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:13,308 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:31:13,835 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:14,461 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:14,462 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:14,519 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:14,845 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:15,861 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:17,727 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:17,727 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:17,774 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:17,879 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:17,880 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:19,200 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:31:19,200 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:31:19,881 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:20,580 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:20,580 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:20,631 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:20,896 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:21,912 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:23,653 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:23,654 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:23,788 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:23,932 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:23,932 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:25,973 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:27,089 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:27,090 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:27,177 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:28,009 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:28,010 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:30,033 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:30,240 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:30,242 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:30,315 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:31,038 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:32,048 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:32,812 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:32,813 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:32,883 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:33,061 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:34,064 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:34,463 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:31:34,464 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:31:35,449 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:35,450 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:35,529 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:36,069 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:36,070 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:38,085 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:38,436 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:38,437 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:38,510 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:39,099 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:40,101 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:41,272 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:41,273 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:41,333 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:42,118 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:42,118 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:43,930 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:43,931 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:43,980 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:44,140 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:44,141 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:46,189 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:47,059 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:47,059 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:47,105 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:47,193 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:47,963 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:31:48,209 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:49,673 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:31:49,673 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:31:49,963 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:49,964 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:50,007 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:50,266 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:50,266 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:52,294 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:52,791 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:52,792 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:52,820 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:53,309 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:54,313 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:55,760 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:55,761 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:55,789 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:56,320 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:56,320 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:31:58,235 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:31:58,236 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:31:58,271 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:31:58,327 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:31:58,328 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:00,350 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:01,183 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:01,184 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:01,218 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:01,353 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:02,387 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:04,176 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:04,177 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:04,231 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:04,402 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:04,403 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:04,878 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:32:04,878 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:32:06,433 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:07,150 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:07,151 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:07,221 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:07,448 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:08,462 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:10,481 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:10,482 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:10,512 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:10,512 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:10,533 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:12,531 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:13,588 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:13,589 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:13,607 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:14,537 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:14,537 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:16,527 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:16,528 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:16,578 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:16,579 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:16,600 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:18,610 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:19,403 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:19,404 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:19,434 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:19,617 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:20,102 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:32:20,102 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:32:20,638 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:22,531 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:32:22,649 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:22,926 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:22,927 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:22,959 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:23,652 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:24,656 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:25,691 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:25,692 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:25,715 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:26,687 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:26,688 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:28,721 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:28,871 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:28,872 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:28,932 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:29,736 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:30,744 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:31,702 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:31,703 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:31,750 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:31,756 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:32,765 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:34,285 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:34,285 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:34,336 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:34,800 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:34,801 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:35,339 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:32:35,339 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:32:36,827 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:37,416 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:37,417 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:37,483 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:37,830 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:38,834 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:40,645 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:40,646 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:40,675 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:40,848 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:40,849 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:42,865 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:43,714 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:43,715 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:43,756 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:43,867 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:44,879 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:46,899 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:46,937 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:46,938 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:46,958 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:47,936 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:48,967 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:50,087 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:50,088 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:50,162 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:50,550 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:32:50,550 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:32:50,993 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:50,993 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:52,947 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:52,948 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:53,013 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:53,013 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:53,034 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:55,038 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:55,727 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:55,728 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:55,789 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:56,041 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:32:57,061 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:57,330 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:32:58,855 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:32:58,856 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:32:58,913 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:32:59,094 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:32:59,094 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:01,109 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:01,532 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:01,533 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:01,560 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:02,119 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:03,124 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:04,284 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:04,285 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:04,329 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:05,164 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:05,164 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:05,754 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:33:05,754 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:33:07,181 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:07,365 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:07,366 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:07,408 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:08,187 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:09,199 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:10,379 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:10,380 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:10,457 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:11,218 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:11,218 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:13,224 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:13,226 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:13,268 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:13,290 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:13,290 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:15,306 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:16,451 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:16,452 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:16,495 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:17,319 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:17,320 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:19,323 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:19,595 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:19,596 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:19,653 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:20,348 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:20,968 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:33:20,968 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:33:21,342 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:22,826 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:22,827 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:22,867 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:23,350 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:23,351 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:25,369 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:25,755 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:25,757 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:25,814 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:26,389 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:27,404 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:29,189 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:29,190 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:29,239 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:29,407 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:29,408 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:31,436 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:31,930 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:33:32,351 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:32,352 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:32,398 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:32,442 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:33,458 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:35,481 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:35,712 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:35,713 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:35,767 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:36,214 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:33:36,214 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:33:36,484 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:37,486 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:38,634 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:38,635 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:38,681 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:39,517 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:39,517 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:41,547 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:42,083 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:42,084 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:42,140 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:42,579 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:43,581 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:44,786 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:44,787 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:44,831 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:45,598 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:45,598 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:47,522 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:47,523 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:47,565 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:47,628 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:47,629 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:49,634 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:50,200 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:50,201 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:50,246 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:50,635 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:51,416 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:33:51,416 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:33:51,637 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:52,832 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:52,833 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:52,869 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:53,678 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:53,678 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:55,551 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:55,552 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:55,582 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:55,686 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:55,687 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:57,705 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:33:58,471 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:33:58,472 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:33:58,534 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:33:58,711 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:33:59,726 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:01,492 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:01,493 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:01,543 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:01,749 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:01,750 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:03,755 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:04,366 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:04,367 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:04,391 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:04,774 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:05,798 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:06,605 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:34:06,631 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:34:06,631 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:34:06,807 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:07,281 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:07,282 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:07,328 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:07,808 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:08,811 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:10,596 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:10,597 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:10,754 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:10,828 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:10,829 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:12,858 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:13,778 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:13,779 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:13,844 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:13,874 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:14,893 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:16,917 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:17,147 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:17,149 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:17,203 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:17,942 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:18,957 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:20,104 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:20,104 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:20,184 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:20,963 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:20,963 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:21,836 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:34:21,836 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:34:22,988 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:23,192 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:23,193 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:23,210 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:24,001 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:25,015 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:26,398 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:26,399 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:26,458 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:27,045 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:27,045 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:29,065 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:29,453 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:29,454 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:29,513 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:30,075 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:31,076 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:32,578 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:32,579 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:32,607 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:33,091 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:33,091 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:35,103 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:35,967 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:35,968 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:35,997 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:36,126 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:37,047 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:34:37,047 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:34:37,146 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:39,158 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:39,342 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:39,343 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:39,457 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:40,163 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:40,918 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:34:41,165 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:42,126 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:42,127 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:42,167 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:42,173 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:43,188 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:44,835 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:44,837 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:44,897 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:45,189 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:45,190 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:47,220 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:48,018 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:48,019 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:48,055 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:48,244 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:49,249 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:50,961 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:50,962 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:51,025 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:51,265 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:51,265 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:52,251 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:34:52,251 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:34:53,269 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:53,929 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:53,929 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:53,983 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:54,285 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:55,300 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:57,204 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:34:57,205 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:34:57,242 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:34:57,301 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:34:57,301 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:34:59,334 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:00,141 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:00,142 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:00,189 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:00,357 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:01,367 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:03,093 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:03,094 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:03,137 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:03,409 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:03,409 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:05,413 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:06,196 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:06,197 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:06,249 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:06,426 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:07,435 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:07,467 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:35:07,467 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:35:09,049 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:09,050 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:09,085 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:09,458 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:09,459 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:11,485 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:12,167 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:12,168 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:12,321 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:12,501 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:13,516 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:14,997 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:14,998 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:15,068 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:15,362 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:35:15,538 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:15,539 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:17,564 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:18,331 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:18,332 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:18,372 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:18,578 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:19,582 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:21,361 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:21,362 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:21,396 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:21,603 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:21,604 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:22,663 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:35:22,663 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:35:23,632 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:24,349 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:24,350 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:24,465 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:24,634 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:25,636 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:27,334 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:27,335 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:27,424 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:27,655 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:27,655 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:29,676 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:30,350 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:30,351 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:30,480 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:30,679 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:31,681 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:33,428 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:33,429 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:33,497 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:33,714 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:33,715 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:35,726 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:36,501 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:36,502 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:36,577 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:36,730 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:37,752 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:37,888 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:35:37,888 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:35:39,628 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:39,629 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:39,691 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:39,771 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:39,772 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:41,798 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:42,546 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:42,547 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:42,636 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:42,813 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:43,829 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:45,608 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:45,609 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:45,686 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:45,850 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:45,850 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:47,889 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:48,782 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:48,783 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:48,823 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:48,894 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:49,943 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:50,026 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:35:51,926 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:52,099 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:52,099 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:52,192 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:52,941 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:53,084 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:35:53,085 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:35:53,942 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:55,149 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:55,150 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:55,236 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:35:55,970 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:55,970 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:57,984 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:35:57,985 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:35:58,059 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:35:58,059 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:35:58,074 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:00,080 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:00,804 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:00,805 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:00,844 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:01,081 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:02,094 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:03,289 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:03,290 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:03,391 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:04,125 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:04,126 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:06,155 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:06,343 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:06,344 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:06,480 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:07,156 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:08,168 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:08,341 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:36:08,342 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:36:09,299 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:09,299 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:09,327 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:10,197 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:10,198 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:12,441 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:12,442 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:12,519 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:13,225 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:14,241 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:15,311 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:15,312 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:15,344 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:16,253 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:16,253 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:18,264 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:18,382 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:18,383 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:18,415 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:19,281 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:20,291 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:21,454 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:21,455 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:21,573 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:22,308 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:22,308 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:23,547 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:36:23,547 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:36:24,343 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:36:24,345 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:24,521 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:24,522 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:24,616 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:25,354 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:26,369 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:27,635 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:27,636 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:27,656 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:28,391 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:28,392 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:30,417 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:30,831 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:30,832 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:30,894 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:31,432 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:32,451 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:33,699 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:33,700 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:33,720 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:34,474 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:34,475 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:36,501 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:36,781 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:36,782 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:36,799 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:37,503 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:38,514 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:38,753 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:36:38,753 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:36:40,090 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:40,091 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:40,124 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:40,534 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:40,535 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:42,552 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:43,053 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:43,054 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:43,116 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:43,568 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:44,584 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:46,011 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:46,012 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:46,041 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:46,611 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:46,611 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:48,630 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:49,188 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:49,188 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:49,222 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:49,635 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:50,651 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:52,135 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:52,136 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:52,224 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:52,688 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:52,689 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:53,996 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:36:53,996 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:36:54,706 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:55,335 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:55,336 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:55,382 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:55,708 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:36:56,710 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:58,610 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:36:58,611 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:36:58,665 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:36:58,665 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:36:58,721 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:36:58,722 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:00,744 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:01,616 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:01,617 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:01,644 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:01,760 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:02,766 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:04,361 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:04,362 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:04,391 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:04,809 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:04,810 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:06,841 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:07,230 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:07,231 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:07,260 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:07,860 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:08,874 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:09,236 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-10 03:37:09,236 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: stop_status
+2021-09-10 03:37:09,954 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:09,955 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:10,030 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:10,905 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:10,905 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:12,919 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:13,247 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:13,248 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:13,266 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:13,934 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:14,948 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:16,373 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:16,373 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:16,435 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:16,974 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:16,975 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:18,993 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:19,268 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:19,269 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:19,437 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:19,996 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:21,013 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:22,840 DEBUG   SenderThread:13224 [sender.py:send():182] send: history
+2021-09-10 03:37:22,841 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:22,909 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:22,951 DEBUG   SenderThread:13224 [sender.py:send():182] send: telemetry
+2021-09-10 03:37:22,951 DEBUG   SenderThread:13224 [sender.py:send():182] send: exit
+2021-09-10 03:37:22,952 INFO    SenderThread:13224 [sender.py:send_exit():291] handling exit code: 0
+2021-09-10 03:37:22,952 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:22,952 INFO    SenderThread:13224 [sender.py:send_exit():293] handling runtime: 609
+2021-09-10 03:37:22,988 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:22,989 INFO    SenderThread:13224 [sender.py:send_exit():303] send defer
+2021-09-10 03:37:22,989 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:22,991 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:22,991 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 0
+2021-09-10 03:37:22,991 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:22,991 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-10 03:37:22,991 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 1
+2021-09-10 03:37:22,992 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:22,992 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 1
+2021-09-10 03:37:23,037 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:23,038 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:23,082 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:23,082 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-10 03:37:23,082 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 2
+2021-09-10 03:37:23,084 DEBUG   SenderThread:13224 [sender.py:send():182] send: stats
+2021-09-10 03:37:23,085 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:23,085 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 2
+2021-09-10 03:37:23,085 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:23,086 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-10 03:37:23,086 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 3
+2021-09-10 03:37:23,087 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:23,087 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 3
+2021-09-10 03:37:23,087 DEBUG   SenderThread:13224 [sender.py:send():182] send: summary
+2021-09-10 03:37:23,101 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:23,122 INFO    SenderThread:13224 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-10 03:37:23,122 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:23,123 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-10 03:37:23,123 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 4
+2021-09-10 03:37:23,123 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:23,124 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:23,124 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 4
+2021-09-10 03:37:23,135 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:23,135 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-10 03:37:23,228 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:23,433 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 5
+2021-09-10 03:37:23,434 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:23,435 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:23,435 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 5
+2021-09-10 03:37:23,435 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:23,436 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-10 03:37:23,436 INFO    SenderThread:13224 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-09-10 03:37:23,545 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,039 INFO    Thread-12 :13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\config.yaml
+2021-09-10 03:37:24,040 INFO    SenderThread:13224 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:24,040 INFO    SenderThread:13224 [dir_watcher.py:finish():312] scan: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files
+2021-09-10 03:37:24,040 INFO    SenderThread:13224 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\conda-environment.yaml conda-environment.yaml
+2021-09-10 03:37:24,041 INFO    SenderThread:13224 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\config.yaml config.yaml
+2021-09-10 03:37:24,041 INFO    SenderThread:13224 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log output.log
+2021-09-10 03:37:24,042 INFO    SenderThread:13224 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\requirements.txt requirements.txt
+2021-09-10 03:37:24,042 INFO    SenderThread:13224 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-metadata.json wandb-metadata.json
+2021-09-10 03:37:24,042 INFO    SenderThread:13224 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json wandb-summary.json
+2021-09-10 03:37:24,043 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 6
+2021-09-10 03:37:24,043 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,044 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:24,048 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 6
+2021-09-10 03:37:24,058 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:24,060 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-10 03:37:24,065 INFO    SenderThread:13224 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-10 03:37:24,147 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,148 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,259 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,259 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,367 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,368 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,479 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,480 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,591 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,592 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,670 INFO    Thread-16 :13224 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\config.yaml
+2021-09-10 03:37:24,704 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,705 INFO    Thread-19 :13224 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\wandb-summary.json
+2021-09-10 03:37:24,705 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,730 INFO    Thread-17 :13224 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\output.log
+2021-09-10 03:37:24,803 INFO    Thread-18 :13224 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\files\requirements.txt
+2021-09-10 03:37:24,816 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,816 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:24,925 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:24,926 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:25,005 INFO    Thread-11 :13224 [sender.py:transition_state():316] send defer: 7
+2021-09-10 03:37:25,006 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:25,006 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 7
+2021-09-10 03:37:25,006 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:25,006 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-10 03:37:25,037 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:25,338 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 8
+2021-09-10 03:37:25,338 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:25,339 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:25,339 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 8
+2021-09-10 03:37:25,339 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:25,339 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-10 03:37:25,339 INFO    SenderThread:13224 [sender.py:transition_state():316] send defer: 9
+2021-09-10 03:37:25,340 DEBUG   SenderThread:13224 [sender.py:send():182] send: final
+2021-09-10 03:37:25,341 DEBUG   SenderThread:13224 [sender.py:send():182] send: footer
+2021-09-10 03:37:25,341 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: defer
+2021-09-10 03:37:25,341 INFO    HandlerThread:13224 [handler.py:handle_request_defer():145] handle defer: 9
+2021-09-10 03:37:25,341 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: defer
+2021-09-10 03:37:25,341 INFO    SenderThread:13224 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-10 03:37:25,446 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-10 03:37:25,447 DEBUG   SenderThread:13224 [sender.py:send_request():196] send_request: poll_exit
+2021-09-10 03:37:25,447 INFO    SenderThread:13224 [file_pusher.py:join():182] waiting for file pusher
+2021-09-10 03:37:25,450 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: get_summary
+2021-09-10 03:37:25,452 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: sampled_history
+2021-09-10 03:37:25,467 DEBUG   HandlerThread:13224 [handler.py:handle_request():128] handle_request: shutdown
+2021-09-10 03:37:25,467 INFO    HandlerThread:13224 [handler.py:finish():677] shutting down handler
+2021-09-10 03:37:26,351 INFO    WriterThread:13224 [datastore.py:close():281] close: D:\EPFL\pinet\wandb\run-20210910_032710-2l43fhmw\run-2l43fhmw.wandb
+2021-09-10 03:37:26,460 INFO    SenderThread:13224 [sender.py:finish():979] shutting down sender
+2021-09-10 03:37:26,460 INFO    SenderThread:13224 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-10 03:37:26,460 INFO    SenderThread:13224 [file_pusher.py:join():182] waiting for file pusher
+2021-09-10 03:37:26,463 INFO    MainThread:13224 [internal.py:handle_exit():76] Internal process exited

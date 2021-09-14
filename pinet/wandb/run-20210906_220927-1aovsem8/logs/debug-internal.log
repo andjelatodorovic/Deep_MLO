@@ -1,0 +1,141 @@
+2021-09-06 22:09:28,785 INFO    MainThread:16940 [internal.py:wandb_internal():86] W&B internal server running at pid: 16940, started at: 2021-09-06 22:09:28.776634
+2021-09-06 22:09:28,787 INFO    WriterThread:16940 [datastore.py:open_for_write():77] open: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\run-1aovsem8.wandb
+2021-09-06 22:09:28,787 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: check_version
+2021-09-06 22:09:28,796 DEBUG   SenderThread:16940 [sender.py:send():182] send: header
+2021-09-06 22:09:28,796 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: check_version
+2021-09-06 22:09:28,880 DEBUG   SenderThread:16940 [sender.py:send():182] send: run
+2021-09-06 22:09:28,921 DEBUG   SenderThread:16940 [git.py:repo():33] git repository is invalid
+2021-09-06 22:09:29,131 INFO    SenderThread:16940 [dir_watcher.py:__init__():168] watching files in: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files
+2021-09-06 22:09:29,131 INFO    SenderThread:16940 [sender.py:_start_run_threads():740] run started: 1aovsem8 with start time 1630958967
+2021-09-06 22:09:29,131 DEBUG   SenderThread:16940 [sender.py:send():182] send: summary
+2021-09-06 22:09:29,131 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: run_start
+2021-09-06 22:09:29,184 INFO    SenderThread:16940 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-06 22:09:29,607 DEBUG   HandlerThread:16940 [meta.py:__init__():39] meta init
+2021-09-06 22:09:29,607 DEBUG   HandlerThread:16940 [meta.py:__init__():53] meta init done
+2021-09-06 22:09:29,607 DEBUG   HandlerThread:16940 [meta.py:probe():210] probe
+2021-09-06 22:09:29,620 DEBUG   HandlerThread:16940 [git.py:repo():33] git repository is invalid
+2021-09-06 22:09:29,620 DEBUG   HandlerThread:16940 [meta.py:_save_pip():57] save pip
+2021-09-06 22:09:29,654 DEBUG   HandlerThread:16940 [meta.py:_save_pip():71] save pip done
+2021-09-06 22:09:29,655 DEBUG   HandlerThread:16940 [meta.py:_save_conda():78] save conda
+2021-09-06 22:09:30,145 INFO    Thread-12 :16940 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\wandb-summary.json
+2021-09-06 22:09:30,145 INFO    Thread-12 :16940 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\requirements.txt
+2021-09-06 22:09:30,145 INFO    Thread-12 :16940 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\conda-environment.yaml
+2021-09-06 22:09:32,384 DEBUG   HandlerThread:16940 [meta.py:_save_conda():86] save conda done
+2021-09-06 22:09:32,384 DEBUG   HandlerThread:16940 [meta.py:probe():252] probe done
+2021-09-06 22:09:32,540 DEBUG   SenderThread:16940 [sender.py:send():182] send: files
+2021-09-06 22:09:32,540 INFO    SenderThread:16940 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-06 22:09:32,552 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-06 22:09:32,552 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: stop_status
+2021-09-06 22:09:33,164 INFO    Thread-12 :16940 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\wandb-metadata.json
+2021-09-06 22:09:33,165 INFO    Thread-12 :16940 [dir_watcher.py:_on_file_created():216] file/dir created: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\output.log
+2021-09-06 22:09:33,178 INFO    Thread-15 :16940 [upload_job.py:push():137] Uploaded file C:\Users\mdsp\AppData\Local\Temp\tmprizvzb4ywandb\2hjlycpp-wandb-metadata.json
+2021-09-06 22:09:33,686 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:33,687 DEBUG   SenderThread:16940 [sender.py:send():182] send: telemetry
+2021-09-06 22:09:33,687 DEBUG   SenderThread:16940 [sender.py:send():182] send: exit
+2021-09-06 22:09:33,687 INFO    SenderThread:16940 [sender.py:send_exit():291] handling exit code: 1
+2021-09-06 22:09:33,688 INFO    SenderThread:16940 [sender.py:send_exit():293] handling runtime: 4
+2021-09-06 22:09:33,706 INFO    SenderThread:16940 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-06 22:09:33,706 INFO    SenderThread:16940 [sender.py:send_exit():303] send defer
+2021-09-06 22:09:33,707 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:33,707 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:33,708 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 0
+2021-09-06 22:09:33,708 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:33,708 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-06 22:09:33,708 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 1
+2021-09-06 22:09:33,709 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:33,709 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 1
+2021-09-06 22:09:33,751 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:33,752 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-06 22:09:33,752 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 2
+2021-09-06 22:09:33,753 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:33,753 DEBUG   SenderThread:16940 [sender.py:send():182] send: stats
+2021-09-06 22:09:33,753 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 2
+2021-09-06 22:09:33,754 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:33,754 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-06 22:09:33,754 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 3
+2021-09-06 22:09:33,755 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:33,755 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 3
+2021-09-06 22:09:33,755 DEBUG   SenderThread:16940 [sender.py:send():182] send: summary
+2021-09-06 22:09:33,784 INFO    SenderThread:16940 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-06 22:09:33,785 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:33,785 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-06 22:09:33,785 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 4
+2021-09-06 22:09:33,785 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:33,785 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 4
+2021-09-06 22:09:33,785 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:33,786 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-06 22:09:33,814 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,040 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 5
+2021-09-06 22:09:34,040 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,041 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:34,041 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 5
+2021-09-06 22:09:34,041 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:34,041 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-06 22:09:34,041 INFO    SenderThread:16940 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-09-06 22:09:34,144 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,175 INFO    SenderThread:16940 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\config.yaml
+2021-09-06 22:09:34,175 INFO    SenderThread:16940 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\wandb-summary.json
+2021-09-06 22:09:34,175 INFO    SenderThread:16940 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\output.log
+2021-09-06 22:09:34,176 INFO    SenderThread:16940 [dir_watcher.py:finish():312] scan: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files
+2021-09-06 22:09:34,176 INFO    SenderThread:16940 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\conda-environment.yaml conda-environment.yaml
+2021-09-06 22:09:34,176 INFO    SenderThread:16940 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\config.yaml config.yaml
+2021-09-06 22:09:34,176 INFO    SenderThread:16940 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\output.log output.log
+2021-09-06 22:09:34,177 INFO    SenderThread:16940 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\requirements.txt requirements.txt
+2021-09-06 22:09:34,180 INFO    SenderThread:16940 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\wandb-metadata.json wandb-metadata.json
+2021-09-06 22:09:34,180 INFO    SenderThread:16940 [dir_watcher.py:finish():318] scan save: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\wandb-summary.json wandb-summary.json
+2021-09-06 22:09:34,181 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 6
+2021-09-06 22:09:34,182 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,183 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:34,186 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 6
+2021-09-06 22:09:34,186 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:34,187 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-06 22:09:34,187 INFO    SenderThread:16940 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-06 22:09:34,295 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,296 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,403 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,404 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,509 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,510 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,615 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,615 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,722 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,723 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,726 INFO    Thread-16 :16940 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\config.yaml
+2021-09-06 22:09:34,733 INFO    Thread-19 :16940 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\wandb-summary.json
+2021-09-06 22:09:34,739 INFO    Thread-18 :16940 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\requirements.txt
+2021-09-06 22:09:34,777 INFO    Thread-17 :16940 [upload_job.py:push():137] Uploaded file D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\files\output.log
+2021-09-06 22:09:34,830 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,830 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,935 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:34,936 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:34,981 INFO    Thread-11 :16940 [sender.py:transition_state():316] send defer: 7
+2021-09-06 22:09:34,982 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:34,982 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 7
+2021-09-06 22:09:34,983 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:34,983 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-06 22:09:35,042 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:35,393 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 8
+2021-09-06 22:09:35,393 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:35,394 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:35,394 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 8
+2021-09-06 22:09:35,394 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:35,394 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-06 22:09:35,394 INFO    SenderThread:16940 [sender.py:transition_state():316] send defer: 9
+2021-09-06 22:09:35,395 DEBUG   SenderThread:16940 [sender.py:send():182] send: final
+2021-09-06 22:09:35,395 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: defer
+2021-09-06 22:09:35,395 INFO    HandlerThread:16940 [handler.py:handle_request_defer():145] handle defer: 9
+2021-09-06 22:09:35,395 DEBUG   SenderThread:16940 [sender.py:send():182] send: footer
+2021-09-06 22:09:35,395 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: defer
+2021-09-06 22:09:35,395 INFO    SenderThread:16940 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-06 22:09:35,506 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: poll_exit
+2021-09-06 22:09:35,506 DEBUG   SenderThread:16940 [sender.py:send_request():196] send_request: poll_exit
+2021-09-06 22:09:35,506 INFO    SenderThread:16940 [file_pusher.py:join():182] waiting for file pusher
+2021-09-06 22:09:35,510 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: get_summary
+2021-09-06 22:09:35,511 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: sampled_history
+2021-09-06 22:09:35,511 DEBUG   HandlerThread:16940 [handler.py:handle_request():128] handle_request: shutdown
+2021-09-06 22:09:35,511 INFO    HandlerThread:16940 [handler.py:finish():677] shutting down handler
+2021-09-06 22:09:36,402 INFO    WriterThread:16940 [datastore.py:close():281] close: D:\EPFL\pinet\wandb\run-20210906_220927-1aovsem8\run-1aovsem8.wandb
+2021-09-06 22:09:36,522 INFO    SenderThread:16940 [sender.py:finish():979] shutting down sender
+2021-09-06 22:09:36,522 INFO    SenderThread:16940 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-06 22:09:36,522 INFO    SenderThread:16940 [file_pusher.py:join():182] waiting for file pusher
+2021-09-06 22:09:36,525 INFO    MainThread:16940 [internal.py:handle_exit():76] Internal process exited

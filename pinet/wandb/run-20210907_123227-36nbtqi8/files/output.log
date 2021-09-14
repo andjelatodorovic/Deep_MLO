@@ -1,0 +1,26 @@
+
+DEEPMLO PiNet 0
+tensor([[   0,    0,    1,  ..., 9902, 9903, 9904],
+        [   1,    2,    3,  ..., 9903, 9904, 9905]])
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 147, in exc_handler
+    traceback.print_exception(exc_type, exc, tb)
+  File "C:\ProgramData\Anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+TypeError: info() got an unexpected keyword argument 'file'
+Original exception was:
+Traceback (most recent call last):
+  File "SmallTrainSize.py", line 378, in <module>
+    train_loss = train()
+  File "SmallTrainSize.py", line 250, in train
+    loss = crit(output, label)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\torch\nn\modules\loss.py", line 1047, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\torch\nn\functional.py", line 2690, in cross_entropy
+    return nll_loss(log_softmax(input, 1), target, weight, None, ignore_index, None, reduction)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\torch\nn\functional.py", line 2385, in nll_loss
+    ret = torch._C._nn.nll_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index)
+RuntimeError: expected scalar type Float but found Double

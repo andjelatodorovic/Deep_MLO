@@ -1,0 +1,13 @@
+DEEPMLO PiNet <function split at 0x000001E24318EEE0>
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 147, in exc_handler
+    traceback.print_exception(exc_type, exc, tb)
+  File "C:\ProgramData\Anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+TypeError: info() got an unexpected keyword argument 'file'
+Original exception was:
+Traceback (most recent call last):
+  File "SmallTrainSize.py", line 366, in <module>
+    test_idx = torch.tensor(test_idx, dtype=torch.long)
+ValueError: expected sequence of length 68 at dim 1 (got 17)
